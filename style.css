@@ -232,6 +232,18 @@ footer {
   margin-top: 70px;
 }
 
+/* FOOTER */
+
+/*  Адаптация для iPhone (до 425px) */
+@media (max-width: 425px) {
+  header > a {
+  font-size: 12px;
+}
+
+header > a:first-child {
+  font-size: 17px;
+}
+}
 
 
 
